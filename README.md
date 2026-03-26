@@ -37,7 +37,7 @@ The **SIMATIC Multi Panel** provides a centralized interface for real-time monit
 ![enter image description here](https://github.com/youness-el-kabtane/Conveyor-for-sorting-boxes-of-two-sizes/blob/343d2367c606f4e3d3cdd76d2490eaba8b28f730/image/Screenshot2.png)
 
 ## Control Logic
-![enter image description here](https://github.com/youness-el-kabtane/Conveyor-for-sorting-boxes-of-two-sizes/blob/343d2367c606f4e3d3cdd76d2490eaba8b28f730/image/Screenshot3.png)
+- ![enter image description here](https://github.com/youness-el-kabtane/Conveyor-for-sorting-boxes-of-two-sizes/blob/343d2367c606f4e3d3cdd76d2490eaba8b28f730/image/Screenshot3.png)
 -   **Network 1 (System Control)**: A memory latch that sets the **Start Bit (M0.2)** when the Start button is pressed and resets it when the Stop button is engaged.
 -   **Network 2 (Product A Detection)**: Sets a memory bit (**M0.3**) when the first sensor identifies a smaller box; it resets once the sequence moves to the next stage.
 -   **Network 3 (Product B Detection)**: Sets a memory bit (**M0.4**) when the sensors identify a larger box; it resets when the system prepares for the next item.
